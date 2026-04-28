@@ -64,8 +64,8 @@ Parameters:
 - Gibbs and Metropolis produce nearly identical results in all configurations.
 - Frequentist quantile estimates are typically close to the true values but show
   higher variability.
-
-📊 [View full simulation report (HTML)](1_Slytherin_report_objective_A.html)
+  
+📊 [View full simulation report (HTML)](https://akshaanhk.github.io/bayesian-censored-data/1_Slytherin_report_objective_A.html)
 
 ---
 
@@ -82,7 +82,7 @@ Parameters:
 **Model checking** was performed visually by overlapping original and posterior
 predictive distributions.
 
-📊 [View full real-data report (HTML)](Slytherin_report_objective_B.html)
+📊 [View full simulation report (HTML)](https://akshaanhk.github.io/bayesian-censored-data/Slytherin_report_objective_B.html)
 
 ---
 

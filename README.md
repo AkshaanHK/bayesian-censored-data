@@ -64,7 +64,7 @@ Parameters:
 - Gibbs and Metropolis produce nearly identical results in all configurations.
 - Frequentist quantile estimates are typically close to the true values but show
   higher variability.
-  
+
 📊 [View full simulation report (HTML)](https://akshaanhk.github.io/bayesian-censored-data/1_Slytherin_report_objective_A.html)
 
 ---
@@ -82,7 +82,7 @@ Parameters:
 **Model checking** was performed visually by overlapping original and posterior
 predictive distributions.
 
-📊 [View full simulation report (HTML)](https://akshaanhk.github.io/bayesian-censored-data/Slytherin_report_objective_B.html)
+📊 [View full real-data report (HTML)](https://akshaanhk.github.io/bayesian-censored-data/Slytherin_report_objective_B.html)
 
 ---
 
@@ -129,10 +129,10 @@ set.seed(1)
 data <- generate_single_element(n_obs = 100, p_censoring = 0.4)
 
 chain <- metropolis_single(
-  data      = data,
-  n_iter    = 10000,
-  init      = c(mu = 0.5, log_sd = 0),
-  mu.prior  = c(0, 10),
+  data           = data,
+  n_iter         = 10000,
+  init           = c(mu = 0.5, log_sd = 0),
+  mu.prior       = c(0, 10),
   sd.prior.scale = 5
 )
 ```
@@ -151,12 +151,14 @@ chain <- metropolis_single(
 
 ---
 
+## AI Usage
+
+AI tools (Claude, ChatGPT) were used to assist with code debugging, refactoring, and documentation. All statistical methods, modelling choices, and interpretations are entirely our own.
+
+---
+
 ## Authors
 
-Akshaan Murugesu
-Huimin Hu
-Lorena Coppola
-Paul Edward Schumacher
-Pooya Sabbagh Savoojbulagh
-  
+Akshaan Murugesu · Huimin Hu · Lorena Coppola · Paul Edward Schumacher · Pooya Sabbagh Savoojbulagh
+
 MSc Statistics — University of Geneva

@@ -1,4 +1,4 @@
-# Applied Bayesian Statistics — Left-Censored Environmental Data
+# Applied Bayesian Statistics — Left-Censored Data
 
 ## Overview
 
